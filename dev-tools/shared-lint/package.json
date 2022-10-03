@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-shared",
+  "version": "1.0.0",
+  "description": "Shareable eslint config for packages/services",
+  "main": "index.js",
+  "author": "Daniel Jakobsen",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  }
+}
